@@ -1,0 +1,80 @@
+[
+  {
+    "title": "Safety",
+    "author": "John L",
+    "category": "Travel",
+    "hero": "moroccandays.jpg"
+  },
+  {
+    "title": "Finance",
+    "author": "Rachel L",
+    "category": "Leisure",
+    "hero": "autumnclouds.jpg"
+  },
+  {
+    "title": "Housing",
+    "author": "John L",
+    "category": "Travel",
+    "hero": "christmas.jpg"
+  },
+  {
+    "title": "Family Law",
+    "author": "Rachel L",
+    "category": "Political",
+    "hero": "july4.jpg"
+  },
+  {
+    "title": "Immigration",
+    "author": "Anthony R",
+    "category": "Cooking",
+    "hero": "firepots.jpg"
+  },
+  {
+    "title": "Employment",
+    "author": "Rachel L",
+    "category": "Leisure",
+    "hero": "jellyfish.jpg"
+  },
+  {
+    "title": "Identity Theft",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "mountaincabin.jpg"
+  },
+  {
+    "title": "Elder Law",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "lightcave.jpg"
+  },
+  {
+    "title": "Domestic Violence",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "greengrass.jpg"
+  },
+  {
+    "title": "Police Violence",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "snowcabin.jpg"
+  },
+  {
+    "title": "Child Abuse",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "ruins.jpg"
+  },
+  {
+    "title": "Sexual Assault",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "umbrella.jpg"
+  },
+  {
+    "title": "Consumer Fraud",
+    "author": "Rachel L",
+    "category": "Travel",
+    "hero": "adventurecave.jpg"
+  }
+]

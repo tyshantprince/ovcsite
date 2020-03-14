@@ -1,5 +1,5 @@
 <template>
-  <v-app dark>
+  <v-app>
     <v-navigation-drawer v-model="drawer" :mini-variant="miniVariant" :clipped="clipped" fixed app>
       <v-list>
         <v-list-item v-for="(item, i) in items" :key="i" :to="item.to" router exact>
@@ -12,17 +12,11 @@
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
-    <v-app-bar class tile app dense>
-      <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
-      <v-container>
+    <v-app-bar elevation="0" app>
+      <v-app-bar-nav-icon class="hidden-md-and-up" @click.stop="drawer = !drawer" />
+      <v-container mx-auto py-0>
         <v-layout>
-          <v-img
-            class="mr-5"
-            src="ovc.png"
-            height="70"
-            width="80"
-            @click="$vuetify.goTo(0)"
-          />
+          <v-img class src="ovc.png" max-width="10vw" max-height="7vh" />
           <v-btn
             v-for="(item, i) in items"
             :key="i"
@@ -31,7 +25,6 @@
             text
             large
           >{{ item.title }}</v-btn>
-          <v-spacer />
         </v-layout>
       </v-container>
     </v-app-bar>
