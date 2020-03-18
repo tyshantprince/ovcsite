@@ -3,5 +3,8 @@ query Categories {
     id
     name
     description
+     image{
+      url
+    }
   }
 }

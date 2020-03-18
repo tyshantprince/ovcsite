@@ -11,7 +11,9 @@
     >
       <v-img
         height="100%"
+        v-if="value.image[0].url"
         gradient="rgba(0, 0, 0, .42), rgba(0, 0, 0, .42)"
+        :src="'http://localhost:1337' + value.image[0].url"
       >
         <v-layout
           v-if="!value.prominent"
