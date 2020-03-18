@@ -2,6 +2,9 @@ import colors from 'vuetify/es5/util/colors'
 
 export default {
   mode: 'universal',
+  env: {  
+    strapiBaseUri: process.env.API_URL || "http://localhost:1337"
+  },
   /*
   ** Headers of the page
   */

@@ -55,7 +55,7 @@ export default {
         {
           icon: "mdi-chart-bubble",
           title: "Get Started",
-          to: "/get-started"
+          to: "/triage"
         },
         {
           icon: "mdi-chart-bubble",

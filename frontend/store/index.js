@@ -13,8 +13,8 @@ export default {
         to: '/'
       },
       {
-        text: 'About',
-        href: '#about'
+        text: 'self-help',
+        href: '/triage'
       }
     ]
   },
