@@ -22,10 +22,10 @@
         >
           <v-flex xs12>
             <h3 class="title font-weight-bold mb-2">
-              {{ value.title }}
+              {{ value.name }}
             </h3>
             <div class="caption">
-              {{ value.author }}<br>Date
+              {{ value.description }}<br>
             </div>
           </v-flex>
           <v-flex align-self-end>

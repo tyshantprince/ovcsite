@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default {
   state: {
-    articles: require('../data/articles.json'),
+    articles: {},
     drawer: false,
     items: [
       {
@@ -44,9 +44,12 @@ export default {
   },
   mutations: {
     setDrawer: (state, payload) => (state.drawer = payload),
-    toggleDrawer: state => (state.drawer = !state.drawer)
+    toggleDrawer: state => (state.drawer = !state.drawer),
+    loadCategories: (state, payload) => (state.articles = payload)
   },
   actions: {
-
+    fetchCategories({ commit}, categories){
+      commit('loadCategories', categories);
+    }
   }
 }

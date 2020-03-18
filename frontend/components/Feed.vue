@@ -40,7 +40,7 @@
         xs3
         text-xs-right
       >
-        <base-btn
+        <!-- <base-btn
           v-if="pages > 1 && page < pages"
           class="mr-0"
           title="Next page"
@@ -48,7 +48,7 @@
           @click="page++"
         >
           <v-icon>mdi-chevron-right</v-icon>
-        </base-btn>
+        </base-btn> -->
       </v-flex>
     </v-layout>
   </v-container>
