@@ -3,7 +3,10 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   mode: 'universal',
   env: {  
-    strapiBaseUri: process.env.API_URL || "http://localhost:1337"
+    baseUrl:
+    process.env.NODE_ENV === 'dev'
+      ? 'http://localhost:1337'
+      : 'https://71954ae8.ngrok.io'
   },
   /*
   ** Headers of the page
